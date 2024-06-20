@@ -369,6 +369,7 @@ pydocstyle:
   gentoo: [dev-python/pydocstyle]
   nixos: [python3Packages.pydocstyle]
   openembedded: ['${PYTHON_PN}-pydocstyle@meta-ros-common']
+  openeuler: [python3-pydocstyle]
   osx:
     pip:
       packages: [pydocstyle]
@@ -397,6 +398,7 @@ pyflakes3:
   gentoo: [dev-python/pyflakes]
   nixos: [python3Packages.pyflakes]
   openembedded: ['${PYTHON_PN}-pyflakes@meta-ros-common']
+  openeuler: [python3-pyflakes]
   osx:
     pip:
       packages: [pyflakes]
@@ -4728,6 +4730,7 @@ python3:
   gentoo: [dev-lang/python]
   nixos: [python3]
   openembedded: [python3@openembedded-core]
+  openeuler: [python3-devel]
   opensuse: [python3-devel]
   rhel: ['python%{python3_pkgversion}-devel']
   ubuntu: [python3-dev]
@@ -4920,6 +4923,7 @@ python3-argcomplete:
   gentoo: [dev-python/argcomplete]
   nixos: [python3Packages.argcomplete]
   openembedded: [python3-argcomplete@meta-python]
+  openeuler: [python3-argcomplete]
   rhel: ['python%{python3_pkgversion}-argcomplete']
   ubuntu: [python3-argcomplete]
 python3-asn1tools-pip:
@@ -4969,6 +4973,7 @@ python3-babeltrace:
   fedora: [python3-babeltrace]
   gentoo: [dev-util/babeltrace]
   nixos: [babeltrace]
+  openeuler: [python3-babeltrace]
   opensuse: [python3-babeltrace]
   rhel:
     '*': [python3-babeltrace]
@@ -5154,6 +5159,7 @@ python3-cairo:
   gentoo: [dev-python/pycairo]
   nixos: [python3Packages.pycairo]
   openembedded: [python3-pycairo@openembedded-core]
+  openeuler: [python3-cairo]
   opensuse: [python3-cairo]
   rhel: ['python%{python3_pkgversion}-cairo']
   slackware:
@@ -5222,6 +5228,7 @@ python3-catkin-pkg-modules:
   gentoo: [dev-python/catkin_pkg]
   nixos: [python3Packages.catkin-pkg]
   openembedded: [python3-catkin-pkg@meta-ros-common]
+  openeuler: [python3-catkin_pkg]
   osx:
     pip:
       packages: [catkin-pkg]
@@ -5438,6 +5445,7 @@ python3-cryptography:
   gentoo: [dev-python/cryptography]
   nixos: [python3Packages.cryptography]
   openembedded: [python3-cryptography@meta-python]
+  openeuler: [python3-cryptography]
   opensuse: [python3-cryptography]
   rhel: ['python%{python3_pkgversion}-cryptography']
   ubuntu: [python3-cryptography]
@@ -5554,6 +5562,7 @@ python3-dev:
   gentoo: [=dev-lang/python-3*]
   nixos: [python3]
   openembedded: [python3@openembedded-core]
+  openeuler: [python3-devel]
   opensuse: [python3-devel]
   rhel: ['python%{python3_pkgversion}-devel']
   ubuntu: [python3-dev]
@@ -5726,6 +5735,7 @@ python3-empy:
   gentoo: [dev-python/empy]
   nixos: [python3Packages.empy]
   openembedded: [python3-empy@meta-ros-common]
+  openeuler: [python3-empy]
   opensuse: [python3-empy]
   osx:
     pip:
@@ -5891,6 +5901,7 @@ python3-flake8:
   gentoo: [dev-python/flake8]
   nixos: [python3Packages.flake8]
   openembedded: [python3-flake8@meta-ros-common]
+  openeuler: [python3-flake8]
   opensuse: [python3-flake8]
   osx:
     pip:
@@ -6588,6 +6599,7 @@ python3-importlib-metadata:
   gentoo: [dev-python/importlib-metadata]
   nixos: [python3Packages.importlib-metadata]
   openembedded: [python3-importlib-metadata@openembedded-core]
+  openeuler: [python3-importlib-metadata]
   osx:
     pip:
       packages: [importlib_metadata]
@@ -6614,6 +6626,7 @@ python3-importlib-resources:
   gentoo: [dev-lang/python]
   nixos: [python3Packages.importlib-resources]
   openembedded: [python3@openembedded-core]
+  openeuler: [python3-importlib-resources]
   osx:
     pip:
       packages: [importlib-resources]
@@ -6809,6 +6822,7 @@ python3-lark-parser:
   gentoo: [dev-python/lark]
   nixos: [python3Packages.lark]
   openembedded: [python3-lark-parser@meta-ros-common]
+  openeuler: [python3-lark-parser]
   rhel: ['python%{python3_pkgversion}-lark-parser']
   ubuntu:
     '*': [python3-lark]
@@ -6864,6 +6878,7 @@ python3-lxml:
   gentoo: [dev-python/lxml]
   nixos: [python3Packages.lxml]
   openembedded: [python3-lxml@meta-python]
+  openeuler: [python3-lxml]
   opensuse: [python3-lxml]
   osx:
     pip:
@@ -6936,6 +6951,7 @@ python3-matplotlib:
   gentoo: [dev-python/matplotlib]
   nixos: [python3Packages.matplotlib]
   openembedded: [python3-matplotlib@meta-python]
+  openeuler: [python3-matplotlib]
   opensuse: [python3-matplotlib]
   osx:
     pip:
@@ -7143,6 +7159,7 @@ python3-mypy:
   gentoo: [dev-python/mypy]
   nixos: [python3Packages.mypy]
   openembedded: [python3-mypy@meta-ros-common]
+  openeuler: [python3-mypy]
   opensuse: [mypy]
   osx:
     pip:
@@ -7208,6 +7225,7 @@ python3-netifaces:
   gentoo: [dev-python/netifaces]
   nixos: [python3Packages.netifaces]
   openembedded: [python3-netifaces@meta-ros-common]
+  openeuler: [python3-netifaces]
   opensuse: [python3-netifaces]
   rhel: ['python%{python3_pkgversion}-netifaces']
   ubuntu: [python3-netifaces]
@@ -7279,6 +7297,7 @@ python3-numpy:
   gentoo: [dev-python/numpy]
   nixos: [python3Packages.numpy]
   openembedded: [python3-numpy@openembedded-core]
+  openeuler: [python3-numpy]
   opensuse: [python3-numpy]
   rhel: ['python%{python3_pkgversion}-numpy']
   ubuntu: [python3-numpy]
@@ -7525,6 +7544,7 @@ python3-packaging:
   gentoo: [dev-python/packaging]
   nixos: [python3Packages.packaging]
   openembedded: [python3-packaging@openembedded-core]
+  openeuler: [python3-packaging]
   rhel: ['python%{python3_pkgversion}-packaging']
   ubuntu: [python3-packaging]
 python3-padaos-pip:
@@ -7658,6 +7678,7 @@ python3-pil:
   gentoo: [dev-python/pillow]
   nixos: [python3Packages.pillow]
   openembedded: [python3-pillow@meta-python]
+  openeuler: [python3-pillow]
   opensuse: [python3-Pillow]
   osx:
     pip:
@@ -7824,6 +7845,7 @@ python3-psutil:
   macports: [py36-psutil]
   nixos: [python3Packages.psutil]
   openembedded: [python3-psutil@meta-python]
+  openeuler: [python3-psutil]
   opensuse: [python3-psutil]
   osx:
     pip:
@@ -7905,6 +7927,7 @@ python3-pycodestyle:
   gentoo: [dev-python/pycodestyle]
   nixos: [python3Packages.pycodestyle]
   openembedded: [python3-pycodestyle@meta-python]
+  openeuler: [python3-pycodestyle]
   opensuse: [python3-pycodestyle]
   osx:
     pip:
@@ -7959,6 +7982,7 @@ python3-pydot:
   gentoo: [dev-python/pydot]
   nixos: [python3Packages.pydot]
   openembedded: [python3-pydot@meta-ros-common]
+  openeuler: [python3-pydot]
   opensuse: [python3-pydot]
   osx:
     pip:
@@ -8038,6 +8062,7 @@ python3-pygraphviz:
   gentoo: [dev-python/pygraphviz]
   nixos: [python3Packages.pygraphviz]
   openembedded: [python3-pygraphviz@meta-ros-common]
+  openeuler: [python3-graphviz]
   opensuse: [python3-pygraphviz]
   osx:
     pip:
@@ -8066,6 +8091,7 @@ python3-pykdl:
   gentoo: [dev-python/python_orocos_kdl]
   nixos: [python3Packages.pykdl]
   openembedded: [python3-pykdl@meta-ros1-noetic]
+  openeuler: [python3-pykdl]
   rhel:
     '*': [python3-pykdl]
     '7': null
@@ -8240,6 +8266,7 @@ python3-pyqt5:
   gentoo: [dev-python/PyQt5]
   nixos: [python3Packages.pyqt5]
   openembedded: [python3-pyqt5@meta-qt5]
+  openeuler: [python3-qt5]
   opensuse: [python3-qt5]
   rhel: ['python%{python3_pkgversion}-qt5-devel', 'python%{python3_pkgversion}-sip-devel', libXext-devel, redhat-rpm-config]
   slackware: [python3-PyQt5]
@@ -8383,6 +8410,7 @@ python3-pytest:
   gentoo: [dev-python/pytest]
   nixos: [pythonPackages.pytest]
   openembedded: [python3-pytest@meta-python]
+  openeuler: [python3-pytest]
   opensuse: [python3-pytest]
   osx:
     pip:
@@ -8422,6 +8450,7 @@ python3-pytest-cov:
   gentoo: [dev-python/pytest-cov]
   nixos: [python3Packages.pytestcov]
   openembedded: [python3-pytest-cov@meta-ros-common]
+  openeuler: [python3-pytest-cov]
   rhel: ['python%{python3_pkgversion}-pytest-cov']
   ubuntu: [python3-pytest-cov]
 python3-pytest-mock:
@@ -8432,6 +8461,7 @@ python3-pytest-mock:
   gentoo: [dev-python/pytest-mock]
   nixos: [python3Packages.pytest-mock]
   openembedded: [python3-pytest-mock@meta-ros-common]
+  openeuler: [python3-pytest-mock]
   opensuse: [python3-pytest-mock]
   osx:
     pip:
@@ -8445,6 +8475,7 @@ python3-pytest-timeout:
   gentoo: [dev-python/pytest-timeout]
   nixos: [python3Packages.pytest-timeout]
   openembedded: [python3-pytest-timeout@meta-python]
+  openeuler: [python3-pytest-timeout]
   opensuse: [python3-pytest-timeout]
   rhel: ['python%{python3_pkgversion}-pytest-timeout']
   ubuntu: [python3-pytest-timeout]
@@ -8530,6 +8561,7 @@ python3-qt5-bindings:
   gentoo: [dev-python/PyQt5]
   nixos: [python3Packages.pyqt5]
   openembedded: [python3-pyqt5@meta-qt5]
+  openeuler: [python3-qt5-devel]
   opensuse: [python3-qt5]
   rhel:
     '*': [python3-qt5-devel, python3-sip-devel, libXext-devel]
@@ -8738,6 +8770,7 @@ python3-rosdistro-modules:
   gentoo: [dev-python/rosdistro]
   nixos: [python3Packages.rosdistro]
   openembedded: [python3-rosdistro@meta-ros-common]
+  openeuler: [python3-rosdistro]
   rhel: ['python%{python3_pkgversion}-rosdistro']
   ubuntu: [python3-rosdistro-modules]
 python3-rosinstall-generator:
@@ -8983,6 +9016,7 @@ python3-setuptools:
   gentoo: [dev-python/setuptools]
   nixos: [python3Packages.setuptools]
   openembedded: [python3-setuptools@openembedded-core]
+  openeuler: [python3-setuptools]
   opensuse: [python3-setuptools]
   osx:
     pip:
@@ -10010,6 +10044,7 @@ python3-yaml:
   gentoo: [dev-python/pyyaml]
   nixos: [python3Packages.pyyaml]
   openembedded: [python3-pyyaml@meta-python]
+  openeuler: [python3-PyYAML]
   opensuse: [python3-PyYAML]
   osx:
     pip:
