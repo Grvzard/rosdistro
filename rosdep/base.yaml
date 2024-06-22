@@ -3556,6 +3556,7 @@ libfreetype-dev:
   gentoo: [media-libs/freetype]
   nixos: [freetype]
   openembedded: [freetype@openembedded-core]
+  openeuler: [freetype-devel]
   opensuse: [freetype-devel]
   rhel: [freetype-devel]
   ubuntu:
@@ -4318,12 +4319,14 @@ liblttng-ust-dev:
   gentoo: [dev-util/lttng-ust]
   nixos: [lttng-ust]
   openembedded: [lttng-ust@openembedded-core]
+  openeuler: [lttng-ust-devel]
   rhel: [lttng-ust-devel]
   ubuntu: [liblttng-ust-dev]
 liblz4:
   debian: [liblz4-1]
   fedora: [lz4-libs]
   nixos: [lz4]
+  openeuler: [lz4]
   opensuse:
     '*': [liblz4]
     '15.2': null
@@ -4333,6 +4336,7 @@ liblz4-dev:
   debian: [liblz4-dev]
   fedora: [lz4-devel]
   nixos: [lz4]
+  openeuler: [lz4-devel]
   opensuse:
     '*': [liblz4-devel]
     '15.2': null
@@ -6647,6 +6651,7 @@ libyaml:
   gentoo: [dev-libs/libyaml]
   nixos: [libyaml]
   openembedded: [libyaml@openembedded-core]
+  openeuler: [libyaml]
   opensuse: [libyaml-devel]
   rhel: [libyaml]
   ubuntu: [libyaml-0-2]
@@ -6658,6 +6663,7 @@ libyaml-dev:
   gentoo: [dev-libs/libyaml]
   nixos: [libyaml]
   openembedded: [libyaml@openembedded-core]
+  openeuler: [libyaml-devel]
   opensuse: [libyaml-devel]
   rhel: [libyaml-devel]
   ubuntu: [libyaml-dev]

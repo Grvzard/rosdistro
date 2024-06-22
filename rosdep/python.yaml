@@ -6022,6 +6022,7 @@ python3-flake8-docstrings:
   fedora: [python3-flake8-docstrings]
   nixos: [python3Packages.flake8-docstrings]
   openembedded: [python3-flake8-docstrings@meta-ros-common]
+  openeuler: [python3-flake8-docstrings]
   opensuse: [python3-flake8-docstrings]
   rhel:
     '*': [python3-flake8-docstrings]
@@ -6040,6 +6041,7 @@ python3-flake8-import-order:
   fedora: [python3-flake8-import-order]
   nixos: [python3Packages.flake8-import-order]
   openembedded: [python3-flake8-import-order@meta-ros-common]
+  openeuler: [python3-flake8-import-order]
   opensuse: [python3-flake8-import-order]
   rhel:
     '*': [python3-flake8-import-order]
@@ -6744,6 +6746,7 @@ python3-jsonschema:
   gentoo: [dev-python/jsonschema]
   nixos: [python3Packages.jsonschema]
   openembedded: [python3-jsonschema@openembedded-core]
+  openeuler: [python3-jsonschema]
   rhel:
     '*': [python3-jsonschema]
     '7': [python36-jsonschema]
@@ -7711,6 +7714,7 @@ python3-pkg-resources:
   gentoo: [dev-python/setuptools]
   nixos: [python3Packages.setuptools]
   openembedded: [python3-setuptools@openembedded-core]
+  openeuler: [python3-setuptools]
   opensuse: [python3-setuptools]
   rhel: ['python%{python3_pkgversion}-setuptools']
   ubuntu: [python3-pkg-resources]
