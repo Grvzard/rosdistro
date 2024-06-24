@@ -385,6 +385,7 @@ boost:
   macports: [boost]
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-devel]
   opensuse: [libboost_atomic1_66_0-devel, libboost_headers1_66_0-devel, libboost_system1_66_0-devel, libboost_thread1_66_0-devel, libboost_chrono1_66_0-devel, libboost_date_time1_66_0-devel, libboost_serialization1_66_0-devel, libboost_filesystem1_66_0-devel, libboost_program_options1_66_0-devel, libboost_python-py2_7-1_66_0-devel, libboost_python-py3-1_66_0-devel, libboost_signals1_66_0-devel, libboost_regex1_66_0-devel, libboost_iostreams1_66_0-devel]
   rhel: [boost-devel, 'boost-python%{python3_pkgversion}-devel']
   slackware:
@@ -1161,6 +1162,7 @@ fmt:
   gentoo: [dev-libs/libfmt]
   nixos: [fmt]
   openembedded: [fmt@meta-oe]
+  openeuer: [fmt]
   osx:
     homebrew:
       packages: [fmt]
@@ -2004,6 +2006,7 @@ hdf5:
   macports: [hdf5]
   nixos: [hdf5]
   openembedded: [hdf5@meta-oe]
+  openeuler: [hdf5-devel]
   ubuntu: [libhdf5-dev]
 hdf5-tools:
   debian: [hdf5-tools]
@@ -2459,6 +2462,7 @@ lcov:
   gentoo: [dev-util/lcov]
   nixos: [lcov]
   openembedded: [lcov@meta-oe]
+  openeuler: []
   opensuse: [lcov]
   rhel: [lcov]
   ubuntu: [lcov]
@@ -2752,6 +2756,7 @@ libboost-dev:
   gentoo: [dev-libs/boost]
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-devel]
   opensuse: [libboost_headers1_66_0-devel]
   rhel: [boost-devel]
   ubuntu: [libboost-dev]
@@ -2764,6 +2769,7 @@ libboost-filesystem:
   gentoo: [dev-libs/boost]
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-filesystem]
   opensuse: [libboost_filesystem1_66_0]
   rhel: [boost-filesystem]
   ubuntu:
@@ -2777,6 +2783,7 @@ libboost-filesystem-dev:
   gentoo: ['dev-libs/boost[python]']
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-devel]
   opensuse: [libboost_filesystem1_66_0-devel]
   rhel: [boost-devel]
   ubuntu: [libboost-filesystem-dev]
@@ -2788,6 +2795,7 @@ libboost-iostreams:
   gentoo: [dev-libs/boost]
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-iostreams]
   opensuse: [libboost_iostreams1_66_0]
   rhel: [boost-iostreams]
   ubuntu:
@@ -2801,6 +2809,7 @@ libboost-iostreams-dev:
   gentoo: [dev-libs/boost]
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-devel]
   opensuse: [libboost_iostreams1_66_0-devel]
   rhel: [boost-devel]
   ubuntu: [libboost-iostreams-dev]
@@ -3867,6 +3876,7 @@ libgrpc:
   gentoo: [net-libs/grpc]
   nixos: [grpc]
   openembedded: [grpc@meta-networking]
+  openeuler: [grpc]
   opensuse: [grpc]
   osx:
     homebrew:
@@ -3983,6 +3993,7 @@ libhdf5-dev:
   gentoo: [sci-libs/hdf5]
   nixos: [hdf5]
   openembedded: [hdf5@meta-oe]
+  openeuler: [hdf5-devel]
   rhel: [hdf5-devel]
   ubuntu: [libhdf5-dev]
 libhidapi-dev:
@@ -5332,6 +5343,7 @@ libpng-dev:
   macports: [libpng]
   nixos: [libpng]
   openembedded: [libpng@openembedded-core]
+  openeuler: [libpng-devel]
   opensuse: [libpng16-devel, libpng16-compat-devel]
   rhel: [libpng-devel]
   slackware: [libpng]
@@ -6441,6 +6453,7 @@ libx11:
   macports: [xorg-libX11]
   nixos: [xorg.libX11]
   openembedded: [libx11@openembedded-core]
+  openeuler: [libX11]
   opensuse: [libX11-6]
   ubuntu: [libx11-dev]
 libx11-dev:
