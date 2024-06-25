@@ -5585,6 +5585,7 @@ python3-distro:
   fedora: [python3-distro]
   gentoo: [dev-python/distro]
   nixos: [python3Packages.distro]
+  openeuler: [python3-distro]
   rhel: [python3-distro]
   ubuntu: [python3-distro]
 python3-distutils:
@@ -7716,6 +7717,7 @@ python3-pip:
   gentoo: [dev-python/pip]
   nixos: [python3Packages.pip]
   openembedded: [python3-pip@openembedded-core]
+  openeuler: [python3-pip]
   opensuse: [python3-pip]
   rhel: [python3-pip]
   ubuntu: [python3-pip]
@@ -7750,6 +7752,7 @@ python3-ply:
   fedora: [python3-ply]
   gentoo: [dev-python/ply]
   nixos: [python3Packages.ply]
+  openeuler: [python3-ply]
   opensuse: [python3-ply]
   rhel:
     '*': [python3-ply]
@@ -7976,6 +7979,7 @@ python3-pydantic:
   fedora: [python3-pydantic]
   gentoo: [dev-python/pydantic]
   nixos: [python3Packages.pydantic]
+  openeuler: [python3-pydantic]
   rhel:
     '*': [python3-pydantic]
     '8': null
@@ -8947,6 +8951,7 @@ python3-scp:
   debian: [python3-scp]
   fedora: [python3-scp]
   nixos: [python3Packages.scp]
+  openeuler: [python3-scp]
   opensuse: [python3-scp]
   rhel:
     '*': [python3-scp]
@@ -9701,6 +9706,7 @@ python3-twisted:
   gentoo: [dev-python/twisted]
   nixos: [python3Packages.twisted]
   openembedded: [python3-twisted@meta-python]
+  openeuler: [python3-twisted]
   opensuse: [python3-Twisted]
   rhel:
     '*': ['python%{python3_pkgversion}-twisted']
@@ -9713,6 +9719,7 @@ python3-typeguard:
   gentoo: [dev-python/typeguard]
   nixos: [python3Packages.typeguard]
   openembedded: [python3-typeguard@meta-python]
+  openeuler: [python3-typeguard]
   osx:
     pip:
       packages: [typeguard]
