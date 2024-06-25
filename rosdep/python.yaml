@@ -316,6 +316,7 @@ meson:
   fedora: [meson]
   gentoo: [dev-build/meson]
   nixos: [meson]
+  openeuler: [meson]
   opensuse: [meson]
   rhel: [meson]
   ubuntu: [meson]
@@ -7619,6 +7620,7 @@ python3-paramiko:
   gentoo: [dev-python/paramiko]
   nixos: [python3Packages.paramiko]
   openembedded: [python3-paramiko@meta-ros-common]
+  openeuler: [python3-paramiko]
   opensuse: [python3-paramiko]
   rhel: ['python%{python3_pkgversion}-paramiko']
   ubuntu: [python3-paramiko]
@@ -7852,6 +7854,7 @@ python3-protobuf:
   gentoo: [dev-python/protobuf-python]
   nixos: [python3Packages.protobuf]
   openembedded: [python3-protobuf@meta-python]
+  openeuler: [python3-protobuf]
   rhel:
     '*': [python3-protobuf]
     '7': null
@@ -9277,6 +9280,7 @@ python3-sphinx:
   gentoo: [dev-python/sphinx]
   nixos: [python3Packages.sphinx]
   openembedded: [python3-sphinx@meta-ros-common]
+  openeuler: [python3-sphinx]
   opensuse: [python3-Sphinx]
   rhel: ['python%{python3_pkgversion}-sphinx']
   ubuntu: [python3-sphinx]
