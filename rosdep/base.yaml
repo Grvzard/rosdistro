@@ -1048,6 +1048,7 @@ ffmpeg:
   macports: [ffmpeg]
   nixos: [ffmpeg]
   openembedded: [ffmpeg@openembedded-core]
+  openeuler: [ffmpeg]
   opensuse: [ffmpeg-4-libavcodec-devel, ffmpeg-4-libavdevice-devel, ffmpeg-4-libavfilter-devel, ffmpeg-4-libavformat-devel, ffmpeg-4-libavresample-devel, ffmpeg-4-libavutil-devel, ffmpeg-4-libpostproc-devel, ffmpeg-4-libswresample-devel, ffmpeg-4-libswscale-devel, ffmpeg-4-private-devel]
   rhel:
     '*': [ffmpeg-free-devel]
@@ -2498,6 +2499,7 @@ libabsl-dev:
   gentoo: [dev-cpp/abseil-cpp]
   nixos: [abseil-cpp]
   openembedded: [abseil-cpp@meta-oe]
+  openeuler: [abseil-cpp-devel]
   rhel:
     '*': [abseil-cpp-devel]
     '7': null
@@ -2909,6 +2911,7 @@ libboost-python-dev:
   gentoo: ['dev-libs/boost[python]']
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-devel]
   opensuse: [libboost_python-py2_7-1_66_0-devel, libboost_python-py3-1_66_0-devel]
   rhel:
     '*': [boost-python3-devel]
@@ -3008,6 +3011,7 @@ libboost-system-dev:
   gentoo: [dev-libs/boost]
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-devel]
   opensuse: [libboost_system1_66_0-devel]
   rhel: [boost-devel]
   ubuntu: [libboost-system-dev]
@@ -3034,6 +3038,7 @@ libboost-thread-dev:
   gentoo: ['dev-libs/boost[threads]']
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-devel]
   opensuse: [libboost_thread1_66_0-devel]
   rhel: [boost-devel]
   ubuntu: [libboost-thread-dev]
@@ -3155,6 +3160,7 @@ libceres-dev:
   gentoo: ['sci-libs/ceres-solver[sparse,lapack]']
   nixos: [ceres-solver]
   openembedded: [ceres-solver@meta-oe]
+  openeuler: [ceres-solver-devel]
   rhel:
     '*': [ceres-solver-devel, suitesparse-devel, flexiblas-devel]
     '8': [ceres-solver-devel]
@@ -3350,6 +3356,7 @@ libdw-dev:
   gentoo: [dev-libs/elfutils]
   nixos: [elfutils]
   openembedded: [elfutils@openembedded-core]
+  openeuler: [elfutils-devel]
   opensuse: [libdw-devel]
   osx:
     homebrew:
@@ -3969,6 +3976,7 @@ libgstreamer1.0-dev:
   gentoo: ['media-libs/gstreamer:1.0']
   nixos: [gst_all_1.gstreamer]
   openembedded: [gstreamer1.0@openembedded-core]
+  openeuler: [gstreamer1-devel]
   opensuse: [gstreamer-devel]
   rhel: [gstreamer1-devel]
   ubuntu: [libgstreamer1.0-dev]
@@ -4756,6 +4764,7 @@ libopenni-dev:
   debian: [libopenni-dev]
   fedora: [openni-devel]
   gentoo: [dev-libs/OpenNI]
+  openeuler: [openni-devel]
   rhel: [openni-devel]
   ubuntu: [libopenni-dev]
 libopenni-nite-dev:
@@ -4946,6 +4955,7 @@ libpcl-all:
   macports: [libpcl]
   nixos: [pcl]
   openembedded: [pcl@meta-ros-common]
+  openeuler: [pcl]
   opensuse: [pcl]
   rhel: [pcl, pcl-tools]
   slackware: [pcl]
@@ -4963,6 +4973,7 @@ libpcl-all-dev:
   macports: [libpcl]
   nixos: [pcl]
   openembedded: [pcl@meta-ros-common]
+  openeuler: [pcl-devel]
   opensuse: [pcl]
   rhel: [pcl-devel]
   slackware: [pcl]
@@ -4997,6 +5008,7 @@ libpcl-common:
   macports: [libpcl]
   nixos: [pcl]
   openembedded: [pcl@meta-ros-common]
+  openeuler: [pcl]
   rhel: [pcl]
   slackware: [pcl]
   ubuntu:
@@ -5685,6 +5697,7 @@ libqt5-opengl-dev:
   gentoo: ['dev-qt/qtopengl:5']
   nixos: [qt5.qtbase]
   openembedded: [qtbase@meta-qt5]
+  openeuler: [qt5-qtbase-devel]
   opensuse: [libQt5OpenGL-devel]
   rhel: [qt5-qtbase-devel]
   slackware: [qt5]
@@ -5767,6 +5780,7 @@ libqt5-websockets-dev:
   gentoo: ['dev-qt/qtwebsockets:5']
   nixos: [qt5.qtwebsockets]
   openembedded: [qtwebsockets@meta-qt5]
+  openeuler: [qt5-qtwebsockets]
   rhel: [qt5-qtwebsockets-devel]
   ubuntu: [libqt5websockets5-dev]
 libqt5-widgets:
@@ -6733,6 +6747,7 @@ libzmq3-dev:
   gentoo: [net-libs/cppzmq]
   nixos: [cppzmq]
   openembedded: [zeromq@meta-oe]
+  openeuler: [cppzmq-devel]
   opensuse: [zeromq-devel]
   rhel: [cppzmq-devel]
   ubuntu:
@@ -7289,6 +7304,7 @@ ocl-icd-opencl-dev:
   fedora: [ocl-icd-devel]
   gentoo: [virtual/opencl]
   nixos: [ocl-icd]
+  openeuler: [ocl-icd-devel]
   rhel: [ocl-icd-devel]
   ubuntu: [ocl-icd-opencl-dev]
 octave:
@@ -7668,6 +7684,7 @@ protobuf:
 protobuf-compiler-grpc:
   debian: [protobuf-compiler-grpc]
   fedora: [grpc-plugins]
+  openeuler: [grpc-plugins]
   rhel:
     '8': null
     '9': [grpc-plugins]
@@ -7765,6 +7782,7 @@ qml-module-qt-labs-platform:
   fedora: [qt5-qtquickcontrols2]
   gentoo: [dev-qt/qtquickcontrols2]
   nixos: [qt5.qtquickcontrols2]
+  openeuler: [qt5-qtquickcontrols2]
   ubuntu: [qml-module-qt-labs-platform]
 qml-module-qt-labs-settings:
   debian: [qml-module-qt-labs-settings]
