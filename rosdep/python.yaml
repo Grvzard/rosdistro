@@ -110,6 +110,7 @@ black:
   gentoo: [dev-python/black]
   nixos: [pythonPackages.black]
   openembedded: [python3-black@meta-ros]
+  openeuler: [python-black]
   ubuntu:
     '*': [black]
     bionic: null
@@ -5088,6 +5089,7 @@ python3-boto3:
   gentoo: [dev-python/boto3]
   nixos: [python3Packages.boto3]
   openembedded: [python3-boto3@meta-ros-common]
+  openeuler: [python3-boto3]
   opensuse: [python3-boto3]
   rhel:
     '*': ['python%{python3_pkgversion}-boto3']
@@ -5133,6 +5135,7 @@ python3-bson:
   gentoo: [dev-python/pymongo]
   nixos: [python3Packages.bson]
   openembedded: [python3-pymongo@meta-python]
+  openeuler: [python3-bson]
   osx:
     pip:
       packages: [bson]
@@ -5314,6 +5317,7 @@ python3-click:
   gentoo: [dev-python/click]
   nixos: [python3Packages.click]
   openembedded: [python3-click@meta-python]
+  openeuler: [python3-click]
   rhel: ['python%{python3_pkgversion}-click']
   ubuntu: [python3-click]
 python3-colcon-common-extensions:
@@ -5396,6 +5400,7 @@ python3-construct:
   fedora: [python3-construct]
   gentoo: [dev-python/construct]
   nixos: [python3Packages.construct]
+  openeuler: [python3-construct]
   rhel:
     '*': [python3-construct]
     '7': null
@@ -5503,6 +5508,7 @@ python3-dbus:
   gentoo: [dev-python/dbus-python]
   nixos: [python3Packages.dbus-python]
   openembedded: [python3-dbus@openembedded-core]
+  openeuler: [python3-dbus]
   rhel: [python3-dbus]
   ubuntu: [python3-dbus]
 python3-decorator:
@@ -6241,6 +6247,7 @@ python3-future:
   gentoo: [dev-python/future]
   nixos: [python3Packages.future]
   openembedded: [python3-future@meta-python]
+  openeuler: [python3-future]
   rhel: ['python%{python3_pkgversion}-future']
   ubuntu: [python3-future]
 python3-gdal:
@@ -6518,6 +6525,7 @@ python3-h5py:
   gentoo: [dev-python/h5py]
   nixos: [python3Packages.h5py]
   openembedded: [python3-h5py@meta-python]
+  openeuler: [python3-h5py]
   ubuntu: [python3-h5py]
 python3-helyos_agent_sdk-pip:
   '*':
@@ -6711,6 +6719,7 @@ python3-jinja2:
   gentoo: [dev-python/jinja]
   nixos: [python3Packages.jinja2]
   openembedded: [python3-jinja2@openembedded-core]
+  openeuler: [python3-jinja2]
   rhel:
     '*': [python3-jinja2]
     '7': [python36-jinja2]
@@ -7046,6 +7055,7 @@ python3-mock:
   gentoo: [dev-python/mock]
   nixos: [python3Packages.mock]
   openembedded: [python3-mock@meta-ros-common]
+  openeuler: [python3-mock]
   opensuse: [python3-mock]
   osx:
     pip:
@@ -7198,6 +7208,7 @@ python3-natsort:
   gentoo: [dev-python/natsort]
   nixos: [python3Packages.natsort]
   openembedded: [python3-natsort@meta-python]
+  openeuler: [python3-natsort]
   opensuse: [python3-natsort]
   rhel: [python3-natsort]
   ubuntu: [python3-natsort]
@@ -7284,6 +7295,7 @@ python3-ntplib:
   gentoo: [dev-python/ntplib]
   nixos: [python3Packages.ntplib]
   openembedded: [python3-ntplib@meta-python]
+  openeuler: [python3-ntplib]
   opensuse: [python3-ntplib]
   rhel:
     '*': ['python%{python3_pkgversion}-ntplib']
@@ -8682,6 +8694,7 @@ python3-requests:
   gentoo: [dev-python/requests]
   nixos: [python3Packages.requests]
   openembedded: [python3-requests@meta-python]
+  openeuler: [python3-requests]
   rhel: ['python%{python3_pkgversion}-requests']
   ubuntu: [python3-requests]
 python3-requests-futures:
@@ -8791,6 +8804,7 @@ python3-rospkg:
   gentoo: [dev-python/rospkg]
   nixos: [python3Packages.rospkg]
   openembedded: [python3-rospkg@meta-ros-common]
+  openeuler: [python3-rospkg]
   opensuse: [python3-rospkg]
   osx:
     pip:
@@ -8920,6 +8934,7 @@ python3-scipy:
   gentoo: [sci-libs/scipy]
   macports: [py37-scipy]
   nixos: [python3Packages.scipy]
+  openeuler: [python3-scipy]
   opensuse: [python3-scipy]
   osx:
     pip:
@@ -9445,6 +9460,7 @@ python3-tabulate:
   fedora: [python3-tabulate]
   gentoo: [dev-python/tabulate]
   nixos: [python3Packages.tabulate]
+  openeuler: [python3-tabulate]
   rhel: [python3-tabulate]
   ubuntu: [python3-tabulate]
 python3-tcr-roboclaw-pip:
@@ -9598,6 +9614,7 @@ python3-tornado:
   gentoo: [www-servers/tornado]
   nixos: [python3Packages.tornado]
   openembedded: [python3-tornado@meta-python]
+  openeuler: [python3-tornado]
   opensuse: [python3-tornado]
   osx:
     pip:
@@ -9609,6 +9626,7 @@ python3-tqdm:
   debian: [python3-tqdm]
   fedora: [python3-tqdm]
   nixos: [python3Packages.tqdm]
+  openeuler: [python3-tqdm]
   osx:
     pip:
       packages: [tqdm]
@@ -9911,6 +9929,7 @@ python3-watchdog:
   fedora: [python3-watchdog]
   gentoo: [dev-python/watchdog]
   nixos: [python3Packages.watchdog]
+  openeuler: [python3-watchdog]
   ubuntu: [python3-watchdog]
 python3-waymo-open-dataset-tf-2-6-0-pip:
   debian:
@@ -10094,6 +10113,7 @@ python3-zmq:
   fedora: [python3-zmq]
   gentoo: [dev-python/pyzmq]
   nixos: [python3Packages.pyzmq]
+  openeuler: [python3-zmq]
   rhel: [python3-zmq]
   ubuntu: [python3-zmq]
 qdarkstyle-pip:

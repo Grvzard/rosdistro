@@ -209,6 +209,7 @@ autoconf:
   macports: [autoconf]
   nixos: [autoconf]
   openembedded: [autoconf@openembedded-core]
+  openeuler: [autoconf]
   opensuse: [autoconf]
   rhel: [autoconf]
   ubuntu: [autoconf]
@@ -341,6 +342,7 @@ binutils:
   gentoo: [sys-devel/binutils]
   nixos: [binutils]
   openembedded: [binutils@openembedded-core]
+  openeuler: [binutils-devel]
   rhel: [binutils-devel]
   ubuntu: [binutils-dev]
 bison:
@@ -460,6 +462,7 @@ cargo:
   gentoo: [virtual/rust]
   nixos: [cargo]
   openembedded: [cargo@openembedded-core]
+  openeuler: [cargo]
   opensuse: [cargo]
   rhel: [cargo]
   ubuntu: [cargo]
@@ -1062,6 +1065,7 @@ ffmpeg-dev:
   macports: [ffmpeg]
   nixos: [ffmpeg]
   openembedded: [ffmpeg@openembedded-core]
+  openeuler: [ffmpeg]
   opensuse: [ffmpeg-4-libavcodec-devel, ffmpeg-4-libavdevice-devel, ffmpeg-4-libavfilter-devel, ffmpeg-4-libavformat-devel, ffmpeg-4-libavresample-devel, ffmpeg-4-libavutil-devel, ffmpeg-4-libpostproc-devel, ffmpeg-4-libswresample-devel, ffmpeg-4-libswscale-devel, ffmpeg-4-private-devel]
   rhel:
     '*': [ffmpeg-free-devel]
@@ -1112,6 +1116,7 @@ flex:
   macports: [flex]
   nixos: [flex]
   openembedded: [flex@openembedded-core]
+  openeuler: [flex]
   opensuse: [flex]
   rhel: [flex]
   ubuntu: [flex]
@@ -1162,7 +1167,7 @@ fmt:
   gentoo: [dev-libs/libfmt]
   nixos: [fmt]
   openembedded: [fmt@meta-oe]
-  openeuer: [fmt]
+  openeuler: [fmt]
   osx:
     homebrew:
       packages: [fmt]
@@ -1801,6 +1806,7 @@ gtk3:
   macports: [gtk3]
   nixos: [gtk3]
   openembedded: [gtk+3@openembedded-core]
+  openeuler: [gtk3]
   opensuse: [gtk3-devel]
   rhel: [gtk3-devel]
   slackware:
@@ -2472,6 +2478,7 @@ leveldb:
   gentoo: [dev-libs/leveldb]
   nixos: [leveldb]
   openembedded: [leveldb@meta-oe]
+  openeuler: [leveldb]
   rhel: [leveldb-devel]
   ubuntu: [libleveldb-dev]
 lib32asound2:
@@ -2734,6 +2741,7 @@ libboost-date-time:
   gentoo: [dev-libs/boost]
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-date-time]
   opensuse: [libboost_date_time1_66_0]
   rhel: [boost-date-time]
   ubuntu:
@@ -2851,6 +2859,7 @@ libboost-program-options:
   gentoo: [dev-libs/boost]
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-program-options]
   opensuse: [libboost_program_options1_66_0]
   rhel: [boost-program-options]
   ubuntu:
@@ -3004,6 +3013,7 @@ libboost-thread:
   gentoo: ['dev-libs/boost[threads]']
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-thread]
   opensuse: [libboost_thread1_66_0]
   rhel: [boost-thread]
   ubuntu:
@@ -4216,6 +4226,7 @@ libjsoncpp:
   gentoo: [dev-libs/jsoncpp]
   nixos: [jsoncpp]
   openembedded: [jsoncpp@meta-oe]
+  openeuler: [jsoncpp]
   opensuse: [libjsoncpp19]
   rhel: [jsoncpp]
   ubuntu:
@@ -4595,6 +4606,7 @@ libogg:
   macports: [libogg]
   nixos: [libogg]
   openembedded: [libogg@openembedded-core]
+  openeuler: [libogg]
   opensuse: [libogg-devel]
   rhel: [libogg-devel]
   slackware: [libogg]
@@ -4904,6 +4916,7 @@ libpcap:
   macports: [libpcap]
   nixos: [libpcap]
   openembedded: [libpcap@openembedded-core]
+  openeuler: [libpcap]
   rhel: [libpcap-devel]
   ubuntu: [libpcap0.8-dev]
 libpcl-all:
@@ -5500,6 +5513,7 @@ libqhull:
   macports: [qhull]
   nixos: [qhull]
   openembedded: [qhull@meta-ros-common]
+  openeuler: [qhull]
   opensuse: [qhull-devel]
   rhel: [qhull-devel]
   slackware: [qhull]
@@ -6260,6 +6274,7 @@ libusb-1.0:
   gentoo: ['virtual/libusb:1']
   nixos: [libusb1]
   openembedded: [libusb1@openembedded-core]
+  openeuler: [libusbx]
   opensuse: [libusb-1_0-0]
   rhel: [libusbx]
   ubuntu: [libusb-1.0-0]
@@ -6271,6 +6286,7 @@ libusb-1.0-dev:
   macports: [libusb]
   nixos: [libusb1]
   openembedded: [libusb1@openembedded-core]
+  openeuler: [libusbx-devel]
   opensuse: [libusb-1_0-devel]
   rhel: [libusbx-devel]
   ubuntu: [libusb-1.0-0-dev]
@@ -6282,6 +6298,7 @@ libusb-dev:
   macports: [libusb]
   nixos: [libusb1]
   openembedded: [libusb1@openembedded-core]
+  openeuler: [libusb-devel]
   opensuse: [libusb-1_0-devel]
   rhel: [libusb-devel]
   ubuntu: [libusb-dev]
@@ -7618,6 +7635,7 @@ protobuf:
   macports: [protobuf-cpp]
   nixos: [protobuf]
   openembedded: [protobuf@meta-oe]
+  openeuler: [protobuf]
   opensuse: [libprotobuf9]
   rhel: [protobuf]
   slackware: [protobuf]
@@ -7713,6 +7731,7 @@ qhull-bin:
   fedora: [qhull]
   gentoo: [media-libs/qhull]
   nixos: [qhull]
+  openeuler: [qhull]
   ubuntu: [qhull-bin]
 qml-module-qt-labs-folderlistmodel:
   debian: [qml-module-qt-labs-folderlistmodel]
@@ -8193,6 +8212,7 @@ simde:
     buster: null
   fedora: [simde-devel]
   nixos: [simde]
+  openeuler: [simde-devel]
   rhel:
     '*': [simde-devel]
     '9': null
@@ -8236,6 +8256,7 @@ socat:
   gentoo: [net-misc/socat]
   nixos: [socat]
   openembedded: [socat@openembedded-core]
+  openeuler: [socat]
   rhel: [socat]
   ubuntu: [socat]
 sound-theme-freedesktop:
@@ -8371,6 +8392,7 @@ suitesparse:
   macports: [SuiteSparse]
   nixos: [suitesparse]
   openembedded: [suitesparse-cxsparse@meta-ros-common, suitesparse-cholmod@meta-ros-common]
+  openeuler: [suitesparse]
   opensuse: [suitesparse-devel]
   rhel: [suitesparse-devel]
   ubuntu: [libsuitesparse-dev]
@@ -8504,6 +8526,7 @@ tbb:
   macports: [tbb]
   nixos: [tbb_2021_8]
   openembedded: [tbb@meta-oe]
+  openeuler: [tbb-devel]
   opensuse: [tbb-devel]
   rhel: [tbb-devel]
   ubuntu: [libtbb-dev]
@@ -8788,6 +8811,7 @@ uuid:
   macports: [ossp-uuid]
   nixos: [util-linux]
   openembedded: [util-linux@openembedded-core]
+  openeuler: [uuid-devel]
   opensuse: [libuuid-devel]
   rhel: [libuuid-devel]
   slackware:
@@ -8806,6 +8830,7 @@ v4l-utils:
   gentoo: [media-tv/v4l-utils]
   nixos: [v4l-utils]
   openembedded: [v4l-utils@meta-oe]
+  openeuler: [v4l-utils]
   rhel:
     '7': [v4l-utils]
   ubuntu: [v4l-utils]
@@ -8883,6 +8908,7 @@ wireless-tools:
   fedora: [wireless-tools]
   gentoo: [net-wireless/wireless-tools]
   nixos: [wirelesstools]
+  openeuler: [wireless-tools]
   ubuntu: [wireless-tools]
 wireshark:
   debian: [wireshark]
@@ -9148,6 +9174,7 @@ zbar:
   gentoo: [media-gfx/zbar]
   nixos: [zbar]
   openembedded: [zbar@meta-oe]
+  openeuler: [zbar]
   rhel: [zbar-devel]
   ubuntu: [libzbar-dev]
 zenity:
@@ -9181,6 +9208,7 @@ zlib:
   macports: [zlib]
   nixos: [zlib]
   openembedded: [zlib@openembedded-core]
+  openeuler: [zlib-devel]
   opensuse: [zlib-devel]
   rhel: [zlib-devel]
   slackware:
