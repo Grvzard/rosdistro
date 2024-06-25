@@ -1065,7 +1065,7 @@ ffmpeg-dev:
   macports: [ffmpeg]
   nixos: [ffmpeg]
   openembedded: [ffmpeg@openembedded-core]
-  openeuler: [ffmpeg]
+  openeuler: [ffmpeg-devel]
   opensuse: [ffmpeg-4-libavcodec-devel, ffmpeg-4-libavdevice-devel, ffmpeg-4-libavfilter-devel, ffmpeg-4-libavformat-devel, ffmpeg-4-libavresample-devel, ffmpeg-4-libavutil-devel, ffmpeg-4-libpostproc-devel, ffmpeg-4-libswresample-devel, ffmpeg-4-libswscale-devel, ffmpeg-4-private-devel]
   rhel:
     '*': [ffmpeg-free-devel]
@@ -1377,6 +1377,7 @@ geos:
   fedora: [geos-devel]
   gentoo: [sci-libs/geos]
   nixos: [geos]
+  openeuler: [geos-devel]
   rhel: [geos-devel]
   ubuntu: [libgeos-dev]
 gettext-base:
@@ -1510,6 +1511,7 @@ glut:
   macports: [freeglut]
   nixos: [freeglut]
   openembedded: [freeglut@meta-oe]
+  openeuler: [freeglut]
   opensuse: [freeglut-devel]
   rhel: [freeglut-devel]
   ubuntu: [freeglut3-dev]
@@ -1626,6 +1628,7 @@ graphicsmagick:
   macports: [GraphicsMagick]
   nixos: [graphicsmagick]
   openembedded: [graphicsmagick@meta-ros2]
+  openeuler: [GraphicsMagick-c++-devel]
   rhel: [GraphicsMagick-c++-devel]
   ubuntu: [libgraphicsmagick++1-dev, graphicsmagick-libmagick-dev-compat]
 graphviz:
@@ -2637,6 +2640,7 @@ libblosc-dev:
   debian: [libblosc-dev]
   fedora: [blosc-devel]
   nixos: [c-blosc]
+  openeuler: [blosc-devel]
   opensuse: [blosc-devel]
   rhel: [blosc-devel]
   ubuntu: [libblosc-dev]
@@ -2646,6 +2650,7 @@ libbluetooth:
   fedora: [bluez-libs]
   gentoo: [net-wireless/bluez-libs]
   nixos: [bluez]
+  openeuler: [bluez]
   rhel: [bluez-libs]
   ubuntu: [libbluetooth3]
 libbluetooth-dev:
@@ -2654,6 +2659,7 @@ libbluetooth-dev:
   fedora: [bluez-libs-devel]
   gentoo: [net-wireless/bluez-libs]
   nixos: [bluez]
+  openeuler: [bluez-devel]
   rhel: [bluez-libs-devel]
   ubuntu: [libbluetooth-dev]
 libboost-atomic:
@@ -2886,6 +2892,7 @@ libboost-python:
   gentoo: ['dev-libs/boost[python]']
   nixos: [boost]
   openembedded: [boost@openembedded-core]
+  openeuler: [boost-python3]
   opensuse: [libboost_python-py2_7-1_66_0, libboost_python-py3-1_66_0]
   rhel:
     '*': [boost-python3]
@@ -3111,6 +3118,7 @@ libccd-dev:
   gentoo: [sci-libs/libccd]
   nixos: [libccd]
   openembedded: [libccd@meta-ros-common]
+  openeuler: [libccd-devel]
   rhel: [libccd-devel]
   ubuntu: [libccd-dev]
 libccid:
@@ -3164,6 +3172,7 @@ libclang-dev:
   fedora: [clang-devel]
   gentoo: [sys-devel/clang]
   nixos: [clang]
+  openeuler: [clang-devel]
   rhel: [clang-devel]
   ubuntu: [libclang-dev]
 libcoin60-dev:
@@ -3448,6 +3457,7 @@ libfcl-dev:
   gentoo: [sci-libs/fcl]
   nixos: [fcl]
   openembedded: [fcl@meta-ros-common]
+  openeuler: [fcl-devel]
   rhel:
     '*': [fcl-devel]
     '7': null
@@ -3731,6 +3741,7 @@ libgflags-dev:
   gentoo: [dev-cpp/gflags]
   nixos: [gflags]
   openembedded: [gflags@meta-oe]
+  openeuler: [gflags-devel]
   opensuse: [gflags-devel]
   rhel: [gflags-devel]
   ubuntu: [libgflags-dev]
@@ -3875,6 +3886,7 @@ libgps:
   gentoo: [sci-geosciences/gpsd]
   nixos: [gpsd]
   openembedded: [gpsd@meta-oe]
+  openeuler: [gps]
   opensuse: [gpsd-devel]
   rhel: [gpsd-devel]
   ubuntu: [libgps-dev]
@@ -4281,6 +4293,7 @@ liblapack-dev:
   gentoo: [virtual/lapack]
   nixos: [liblapack]
   openembedded: [lapack@meta-oe]
+  openeuler: [lapack-devel]
   opensuse: [lapack-devel]
   rhel: [lapack-devel]
   ubuntu: [liblapack-dev]
@@ -4666,6 +4679,7 @@ libomp-dev:
   fedora: [libomp-devel]
   gentoo: [sys-libs/libomp]
   nixos: [llvmPackages.openmp]
+  openeuler: [libomp-devel]
   rhel:
     '*': [libomp-devel]
     '7': null
@@ -4697,6 +4711,7 @@ libopenblas-dev:
   gentoo: [sci-libs/openblas]
   nixos: [openblas]
   openembedded: [openblas@meta-ros-common]
+  openeuler: [openblas-devel]
   rhel: [openblas-devel]
   ubuntu: [libopenblas-dev]
 libopencv-contrib-dev:
@@ -5383,6 +5398,7 @@ libpoco-dev:
   macports: [poco]
   nixos: [poco]
   openembedded: [poco@meta-oe]
+  openeuler: [poco-devel]
   opensuse: [poco-devel]
   rhel:
     '*': [poco-devel]
@@ -5879,6 +5895,7 @@ libreadline:
   macports: [readline]
   nixos: [readline]
   openembedded: [readline@openembedded-core]
+  openeuler: [readline]
   rhel: [readline]
   ubuntu: [libreadline-dev]
 libreadline-dev:
@@ -5889,6 +5906,7 @@ libreadline-dev:
   macports: [readline]
   nixos: [readline]
   openembedded: [readline@openembedded-core]
+  openeuler: [readline-devel]
   ubuntu: [libreadline-dev]
 libreadline-java:
   arch: [java-readline]
@@ -6184,6 +6202,7 @@ libturbojpeg:
   gentoo: [media-libs/libjpeg-turbo]
   nixos: [libjpeg_turbo]
   openembedded: [libjpeg-turbo@openembedded-core]
+  openeuler: [turbojpeg]
   opensuse: [libturbojpeg0, libjpeg8-devel]
   rhel: [libjpeg-turbo-devel, turbojpeg-devel]
   ubuntu:
@@ -6195,6 +6214,7 @@ libudev-dev:
   gentoo: [virtual/libudev]
   nixos: [udev]
   openembedded: [udev@openembedded-core]
+  openeuler: [libgudev-devel]
   rhel: [libudev-devel]
   ubuntu: [libudev-dev]
 libunittest++:
@@ -7203,6 +7223,7 @@ nlohmann-json-dev:
   gentoo: [dev-cpp/nlohmann_json]
   nixos: [nlohmann_json]
   openembedded: [nlohmann-json@meta-oe]
+  openeuler: [nlohmann-json-devel]
   rhel: [json-devel]
   ubuntu:
     '*': [nlohmann-json3-dev]
@@ -7660,6 +7681,7 @@ protobuf-dev:
   macports: [protobuf-cpp]
   nixos: [protobuf]
   openembedded: [protobuf@meta-oe]
+  openeuler: [protobuf-devel]
   opensuse: [protobuf-devel]
   rhel: [protobuf-devel, protobuf-compiler]
   slackware: [protobuf]
@@ -7957,6 +7979,7 @@ range-v3:
   fedora: [range-v3-devel]
   gentoo: [dev-cpp/range-v3]
   nixos: [range-v3]
+  openeuler: [range-v3-devel]
   osx:
     homebrew:
       packages: [range-v3]
@@ -7977,6 +8000,7 @@ readline-dev:
   fedora: [readline-devel]
   gentoo: [sys-libs/readline]
   nixos: [readline]
+  openeuler: [readline-devel]
   ubuntu: [libreadline-dev]
 recode:
   arch: [recode]
@@ -8165,6 +8189,7 @@ sdl2:
   gentoo: [media-libs/libsdl2]
   nixos: [SDL2]
   openembedded: [libsdl2@openembedded-core]
+  openeuler: [SDL2-devel]
   rhel: [SDL2-devel]
   ubuntu: [libsdl2-dev]
 sdl2-image:
@@ -8334,6 +8359,7 @@ sqlite3:
   gentoo: [=dev-db/sqlite-3*]
   nixos: [sqlite]
   openembedded: [sqlite3@openembedded-core]
+  openeuler: [sqlite]
   rhel: [sqlite]
   ubuntu: [sqlite3]
 ssh-askpass:
@@ -8381,6 +8407,7 @@ subversion:
   macports: [subversion]
   nixos: [subversion]
   openembedded: [subversion@openembedded-core]
+  openeuler: [subversion]
   opensuse: [subversion]
   rhel: [subversion]
   ubuntu: [subversion]
@@ -8867,6 +8894,7 @@ wayland:
   fedora: [libwayland-client, libwayland-cursor, libwayland-egl]
   nixos: [wayland]
   openembedded: [wayland@openembedded-core]
+  openeuler: [wayland]
   rhel: [libwayland-client, libwayland-cursor, libwayland-egl]
   ubuntu: [libwayland-client0, libwayland-cursor0, libwayland-egl1]
 wayland-dev:
@@ -8875,6 +8903,7 @@ wayland-dev:
   fedora: [wayland-devel, wayland-protocols-devel]
   nixos: [wayland]
   openembedded: [wayland@openembedded-core]
+  openeuler: [wayland-devel]
   rhel: [wayland-devel, wayland-protocols-devel]
   ubuntu: [libwayland-dev, wayland-protocols]
 wget:
