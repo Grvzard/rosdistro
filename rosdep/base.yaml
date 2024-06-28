@@ -2477,7 +2477,6 @@ lcov:
   gentoo: [dev-util/lcov]
   nixos: [lcov]
   openembedded: [lcov@meta-oe]
-  openeuler: []
   opensuse: [lcov]
   rhel: [lcov]
   ubuntu: [lcov]
@@ -6680,6 +6679,7 @@ libxmu-dev:
   gentoo: [x11-libs/libXmu]
   nixos: [xorg.libXmu]
   openembedded: [libxmu@openembedded-core]
+  openeuler: [libXmu-devel]
   rhel: [libXmu-devel]
   ubuntu: [libxmu-dev]
 libxrandr:
@@ -8979,6 +8979,7 @@ wireguard:
   fedora: [wireguard-tools]
   gentoo: [net-vpn/wireguard-tools]
   nixos: [wireguard-tools]
+  openeuler: [wireguard-tools]
   rhel: [wireguard-tools]
   ubuntu:
     '*': [wireguard]
