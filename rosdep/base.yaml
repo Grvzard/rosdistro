@@ -8811,6 +8811,7 @@ uncrustify:
   gentoo: [dev-util/uncrustify]
   nixos: [uncrustify]
   openembedded: [uncrustify@meta-ros-common]
+  openeuler: [uncrustify]
   osx:
     homebrew:
       packages: [uncrustify]
