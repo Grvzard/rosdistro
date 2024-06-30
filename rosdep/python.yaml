@@ -8835,6 +8835,7 @@ python3-rospkg-modules:
   gentoo: [dev-python/rospkg]
   nixos: [python3Packages.rospkg]
   openembedded: [python3-rospkg@meta-ros-common]
+  openeuler: [python3-rospkg]
   opensuse: [python3-rospkg]
   osx:
     pip:
@@ -9032,6 +9033,7 @@ python3-serial:
   gentoo: [dev-python/pyserial]
   nixos: [python3Packages.pyserial]
   openembedded: [python3-pyserial@meta-python]
+  openeuler: [python3-pyserial]
   rhel:
     '*': ['python%{python3_pkgversion}-pyserial']
     '7': null
@@ -9896,6 +9898,7 @@ python3-venv:
   fedora: [python3-libs]
   gentoo: [dev-lang/python]
   nixos: [python3]
+  openeuler: [python3]
   opensuse: [python3-virtualenv]
   osx:
     pip:

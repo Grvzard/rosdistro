@@ -1489,6 +1489,7 @@ glslang-dev:
   fedora: [glslang-devel]
   gentoo: [dev-util/glslang]
   nixos: [glslang]
+  openeuler: [glslang-devel]
   opensuse: [glslang-devel]
   rhel:
     '*': [glslang-devel]
@@ -3281,6 +3282,7 @@ libcurl-dev:
   fedora: [libcurl-devel]
   gentoo: [net-misc/curl]
   nixos: [curl]
+  openeuler: [libcurl-devel]
   opensuse: [libcurl-devel]
   rhel: [libcurl-devel]
   ubuntu: [libcurl4-openssl-dev]
@@ -3579,6 +3581,7 @@ libfreeimage-dev:
   debian: [libfreeimage-dev]
   fedora: [freeimage-devel]
   nixos: [freeimage]
+  openeuler: [freeimage-devel]
   opensuse: [freeimage-devel]
   rhel: [freeimage-devel]
   ubuntu: [libfreeimage-dev]
@@ -5047,6 +5050,7 @@ libpcl-features:
   macports: [libpcl]
   nixos: [pcl]
   openembedded: [pcl@meta-ros-common]
+  openeuler: [pcl]
   rhel: [pcl]
   slackware: [pcl]
   ubuntu:
@@ -5085,6 +5089,7 @@ libpcl-io:
   macports: [libpcl]
   nixos: [pcl]
   openembedded: [pcl@meta-ros-common]
+  openeuler: [pcl]
   rhel: [pcl]
   slackware: [pcl]
   ubuntu:
@@ -6515,6 +6520,7 @@ libwebsockets-dev:
   fedora: [libwebsockets-devel]
   gentoo: [net-libs/libwebsockets]
   nixos: [libwebsockets]
+  openeuler: [libwebsockets-devel]
   opensuse: [libwebsockets-devel]
   rhel: [libwebsockets-devel]
   ubuntu: [libwebsockets-dev]
@@ -9184,6 +9190,7 @@ xvfb:
   fedora: [xorg-x11-server-Xvfb]
   gentoo: [x11-misc/xvfb-run]
   nixos: [xorg.xorgserver]
+  openeuler: [xorg-x11-server-Xvfb]
   rhel: [xorg-x11-server-Xvfb]
   ubuntu: [xvfb]
 xz-utils:
