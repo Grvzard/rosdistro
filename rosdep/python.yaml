@@ -8086,7 +8086,7 @@ python3-pygraphviz:
   gentoo: [dev-python/pygraphviz]
   nixos: [python3Packages.pygraphviz]
   openembedded: [python3-pygraphviz@meta-ros-common]
-  openeuler: [python3-graphviz]
+  openeuler: [python3-pygraphviz]
   opensuse: [python3-pygraphviz]
   osx:
     pip:
