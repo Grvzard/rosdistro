@@ -5,6 +5,8 @@
 release_platforms:
   ubuntu:
   - focal
+  openeuler:
+  - '24.03'
 repositories:
   abb_driver:
     doc:
