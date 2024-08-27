@@ -5805,7 +5805,7 @@ libqt5-websockets-dev:
   gentoo: ['dev-qt/qtwebsockets:5']
   nixos: [qt5.qtwebsockets]
   openembedded: [qtwebsockets@meta-qt5]
-  openeuler: [qt5-qtwebsockets]
+  openeuler: [qt5-qtwebsockets-devel]
   rhel: [qt5-qtwebsockets-devel]
   ubuntu: [libqt5websockets5-dev]
 libqt5-widgets:
