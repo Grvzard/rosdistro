@@ -5747,6 +5747,7 @@ libqt5-quick:
   gentoo: ['dev-qt/qtdeclarative:5']
   nixos: [qt5.qtdeclarative]
   openembedded: [qtdeclarative@meta-qt5]
+  openeuler: [qt5-qtdeclarative]
   rhel: [qt5-qtdeclarative]
   ubuntu: [libqt5quick5]
 libqt5-serialport:
